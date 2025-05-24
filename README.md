@@ -56,25 +56,43 @@ Furthermore, we examined the correlation between the daily returns of these tech
 
 ## 6. The Pandemic's Mark: COVID-19 Impact Analysis
 
-The COVID-19 pandemic served as an unprecedented global disruptor, leaving an indelible mark on financial markets. To meticulously quantify its impact on stock volatility, we established **February 20, 2020**, as our critical demarcation date, dividing our dataset into "Pre-COVID" and "Post-COVID" periods. We then employed Levene's Test, a robust statistical tool, to rigorously assess whether the variance (our chosen measure of volatility) of daily returns for each company underwent a statistically significant change between these two distinct periods.
+The COVID-19 pandemic served as an unprecedented global disruptor, leaving an indelible mark on financial markets. To meticulously quantify its impact on stock volatility, we established **February 20, 2020**, as our critical demarcation date, dividing our dataset into "Pre-COVID" and "Post-COVID" periods.
+
+### 6.1 Investigating Shift in Stock Volatility
+
+Our primary inquiry focused on hwether the volatility (risk) was significantly affected following the COVID-19 pandemic.
+
+**H0:**σ<sup>2</sup><sub>pre</sub> = σ<sup>2</sup><sub>post</sub>
+**H0:**σ<sup>2</sup><sub>pre</sub> != σ<sup>2</sup><sub>post</sub>
+
+for that purpose we employed Levene's Test, a robust statistical tool, to rigorously assess whether the variance (our chosen measure of volatility) of daily returns for each company underwent a statistically significant change between these two distinct periods.
 
 Our statistical findings from Levene's Test indicated a statistically significant change in volatility for most, if not all, of these tech giants in the post-COVID era. This conclusion was vividly supported by our visualizations, which often showed a notably wider spread of daily returns in the post-COVID period. This observed increase in volatility directly reflects the heightened uncertainty, rapid economic shifts, and accelerated digital transformation spurred by the pandemic.
 
-![Total Percentage Stock Growth: Pre-COVID vs. Post-COVID](IWTG%20Results/Total%20Percentage%20Stock%20Growth_%20Pre-COVID%20vs.%20Post-COVID.png)
+![Total Percentage Stock Growth: Pre-COVID vs. Post-COVID](IWTG%20Results/Total%20Percentage%20Stock%20Growth%20Pre-COVID%20vs.%20Post-COVID.png)
+
+### 6.2 A Comprehensive Exploratory Analysis of the Data
 
 Beyond just volatility, a comparison of total percentage growth in the pre- and post-COVID periods offered a compelling narrative. For nearly every company, the post-COVID era delivered substantially higher total growth, even accounting for the initial market shock. This powerfully underscores how the pandemic, despite its initial market shock, acted as a catalyst for growth across many segments of the tech sector, driving increased adoption of digital services.
 
-![Distribution of Daily Returns: Pre-COVID vs. Post-COVID (Violin Plot)](IWTG%20Results/Distribution%20of%20Daily%20Returns_%20Pre-COVID%20vs.%20Post-COVID.png)
+![Distribution of Daily Returns: Pre-COVID vs. Post-COVID (Violin Plot)](IWTG%20Results/Distribution%20of%20Daily%20Returns%20Pre-COVID%20vs.%20Post-COVID.png)
 
 A focused visualization on Nvidia further illuminated this acceleration. By overlaying its normalized growth trajectory from the three years before COVID-19 with the three years after, the dramatic steepening of its post-pandemic growth curve became strikingly apparent. This highlights Nvidia's unique position and exceptional capitalization on the shifts towards remote work, online entertainment, and the burgeoning AI landscape.
 
-![Nvidia Stock Growth: 3 Years Before vs. 3 Years After COVID-19 (Normalized)](IWTG%20Results/Nvidia%20Stock%20Growth_%203%20Years%20Before%20vs.%203%20Years%20After%20COVID-19%20(Normalized).png)
+![Nvidia Stock Growth: 3 Years Before vs. 3 Years After COVID-19 (Normalized)](IWTG%20Results/Nvidia%20Stock%20Growth%203%20Years%20Before%20vs.%203%20Years%20After%20COVID-19%20(Normalized).png)
 
-Interestingly, our analysis also extended to the subtle shifts in intra-day trading dynamics. We observed changes in the proportion of "up" days (where the closing price was higher than the opening price) before and after the pandemic. For some companies, like Google, this shift was statistically significant, indicating that even the short-term trading patterns were affected by the new market environment.
+### 6.3 Examining Intra-day Trading Dynamics
 
-![Comparison of Intra-day "Up" Day Proportions: Pre- vs. Post-COVID](IWTG%20Results/Comparison%20of%20Intra-day%20_Up_%20Day%20Proportions_%20Pre-_vs._Post-COVID.png)
+Our analysis also extended to the subtle shifts in intra-day trading dynamics. We observed changes in the proportion of "up" days (where the closing price was higher than the opening price) before and after the pandemic. 
 
-![Shift in Intra-day Up Days (Close > Open): Post-COVID vs. Pre-COVID](IWTG%20Results/Shift%20in%20Intra-day%20Up%20Days%20(Close%20_Open)_%20Post-COVID%20vs._%20Pre-COVID.png)
+**H0:** p<sub>post</sub> = p<sub>pre</sub>
+**H1:** p<sub>post</sub> != p<sub>pre</sub>
+
+Interestingly for some companies, like Google, this shift was statistically significant. For the other tech giants (AAPL, AMZN, MSFT, NVDA), we failed to reject the null hypothesis, suggesting no statistically significant shift in this particular intra-day pattern based on our data and chosen significance level. This indicates that even the short-term trading patterns were affected by the new market environment.
+
+![Comparison of Intra-day "Up" Day Proportions: Pre- vs. Post-COVID](IWTG%20Results/Comparison%20of%20Intra-day%20Up%20Day%20Proportions%20Pre-%20vs.%20Post-COVID.png)
+
+![Shift in Intra-day Up Days (Close > Open): Post-COVID vs. Pre-COVID](IWTG%20Results/Shift%20in%20Intra-day%20Up%20Days%20(Close%20%20Open)%20Post-COVID%20vs.%20Pre-COVID.png)
 
 ## 7. Glimpsing the Future: Stock Trajectory Prediction
 
