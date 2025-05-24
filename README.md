@@ -1,5 +1,27 @@
-# Comprehensive Stock Performance Analysis of Leading Tech Giants (2016-2024)
 
+# 📈Investing with the Giants: A Comprehensive Stock Performance Analysis of Leading Tech Giants (2016-2024)
+
+This serves as a comprehensive data analysis project exploring the stock performance of five leading technology companies: **Apple (AAPL), Amazon (AMZN), Google (GOOGL), Microsoft (MSFT), and Nvidia (NVDA)**.
+
+We will delve into historical stock data to:
+*   Visualize their growth trajectories.
+*   Analyze their risk and reward profiles.
+*   Examine the impact of key market events, suchally the COVID-19 pandemic.
+*   Investigate correlations between these tech giants.
+*   Attempt to predict future stock price movements.
+
+This project aims to provide insights into market dynamics, investment strategies, and the resilience of tech innovation through data-driven storytelling.
+
+# ✒️ Authors
+
+This project was collaboratively developed by the following individuals for the Data Analysis Course at EUI:
+
+*   **[Omar Shafiy](https://www.linkedin.com/in/theomarshafiy/)** (23-201356)
+*   **[Omar Sharaf](https://www.linkedin.com/in/omar-sharaf-545220293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)** (24-101236)
+*   **[Omar Wafa](https://www.linkedin.com/in/omar-wafa-5b04b9238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appE)** (23-101281)
+*   **[Eiad Essam](https://www.linkedin.com/in/eiad-essam-50771a254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)** (23-101108)
+
+Feel free to reach out with any questions or feedback.
 ## Abstract
 
 This report presents a comprehensive data analysis of the stock performance of five major technology companies: Apple (AAPL), Amazon (AMZN), Google (GOOGL), Microsoft (MSFT), and Nvidia (NVDA), spanning from early 2016 to late 2024. Leveraging historical daily stock data, this study explores their individual growth trajectories, quantifies their risk-reward profiles, and investigates the profound impact of the COVID-19 pandemic on their financial volatility. Furthermore, it delves into the interconnectedness of these tech giants and presents an attempt to forecast their future stock trajectories using time series models. The findings reveal distinct narratives of growth, resilience, and adaptability within the tech sector, highlighting Nvidia's explosive ascent and Microsoft's consistent stability, while also underscoring the market's dramatic shifts in response to global events.
