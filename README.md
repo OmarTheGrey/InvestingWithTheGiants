@@ -22,7 +22,11 @@ To gain a truly comparable understanding of their performance, we normalized all
 
 From this normalized perspective, Nvidia emerged as the undisputed champion of growth, showcasing an exceptionally explosive upward trend that dramatically outpaced its peers, particularly in the later years of our analysis. Microsoft, while perhaps less flashy, demonstrated remarkably strong and consistent growth throughout the period, solidifying its position as a reliable performer. Apple also delivered substantial percentage gains, though its curve was not as dramatically steep as Nvidia's. Amazon and Google ultimately achieved significant overall growth, but navigated a somewhat more volatile path, marked by noticeable fluctuations.
 
+
+
 ![Normalized Closing Prices of Tech Giants (Base 100)](IWTG Results/Normalized_Closing_Prices_of_Tech_Giants_Base_100.png)
+
+
 
 ## 3. Unpacking Risk: Volatility and Returns
 
