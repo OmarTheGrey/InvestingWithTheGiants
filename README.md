@@ -16,11 +16,11 @@ Our initial examination of the raw closing prices across these tech giants immed
 
 To gain a truly comparable understanding of their performance, we normalized all stock prices to a common starting point (a base of 100) on January 2, 2018. This transformation allowed us to visualize their percentage growth trajectories side-by-side, painting a far clearer picture of who truly led the charge.
 
-![Raw Closing Prices of Tech Giants (2016-2024)](IWTG Results/Raw Closing Prices of Tech Giants (2016-2024).png)
+![Raw Closing Prices of Tech Giants (2016-2024)](IWTG%20Results/Raw%20Closing%20Prices%20of%20Tech%20Giants%20(2016-2024).png)
 
 From this normalized perspective, Nvidia emerged as the undisputed champion of growth, showcasing an exceptionally explosive upward trend that dramatically outpaced its peers, particularly in the later years of our analysis. Microsoft, while perhaps less flashy, demonstrated remarkably strong and consistent growth throughout the period, solidifying its position as a reliable performer. Apple also delivered substantial percentage gains, though its curve was not as dramatically steep as Nvidia's. Amazon and Google ultimately achieved significant overall growth, but navigated a somewhat more volatile path, marked by noticeable fluctuations.
 
-![Normalized Closing Prices of Tech Giants (Base 100)](IWTG Results/Normalized Closing Prices of Tech Giants (Base 100).png)
+![Normalized Closing Prices of Tech Giants (Base 100)](IWTG%20Results/Normalized%20Closing%20Prices%20of%20Tech%20Giants%20(Base%20100).png)
 
 ## 3. Unpacking Risk: Volatility and Returns
 
@@ -28,13 +28,13 @@ Beyond just growth, a savvy investor deeply considers risk, which is often measu
 
 Our analysis of the distribution of daily returns, complemented by a scatter plot comparing annualized volatility against mean annualized returns, provided crucial insights. Nvidia, while boasting unparalleled returns, also exhibited the highest volatility, confirming its identity as the most thrilling, yet potentially turbulent, investment among the group. Microsoft, however, struck an impressive balance, delivering substantial returns with notably lower volatility compared to its peers. This positions Microsoft as a unique blend of robust growth and relative stability. Apple also demonstrated itself as a comparatively steady performer, offering solid returns with manageable risk. Amazon and Google typically fell into a middle ground, providing decent returns but with more pronounced daily swings than Microsoft and Apple.
 
-![Distribution of Daily Returns for Tech Giants](IWTG Results/Distribution of Daily Returns for Tech Giants.png)
+![Distribution of Daily Returns for Tech Giants](IWTG%20Results/Distribution%20of%20Daily%20Returns%20for%20Tech%20Giants.png)
 
-![Risk (Volatility) vs. Annualized Return](IWTG Results/Risk (Volatility) vs. Annualized Return.png)
+![Risk (Volatility) vs. Annualized Return](IWTG%20Results/Risk%20(Volatility)%20vs.%20Annualized%20Return.png)
 
 To further understand the dynamic nature of this risk, we also examined the 30-day rolling annualized volatility. This revealed how volatility itself shifted over time, providing a granular view of fluctuating risk levels across different market phases.
 
-![30-Day Rolling Annualized Volatility for Tech Giants](IWTG Results/30-Day Rolling Annualized Volatility for Tech Giants.png)
+![30-Day Rolling Annualized Volatility for Tech Giants](IWTG%20Results/30-Day%20Rolling%20Annualized%20Volatility%20for%20Tech%20Giants.png)
 
 ## 4. Investor's Lens: Hypothetical Investment Returns
 
@@ -42,17 +42,17 @@ To translate abstract growth percentages into a more tangible understanding, we 
 
 The results powerfully underscore the immense wealth generation potential within this sector. Nvidia's performance was nothing short of extraordinary; a hypothetical $1000 investment would have swelled to over $17,000, representing a staggering 1614% return. While Apple, Google, and Microsoft also delivered substantial gains (ranging from 135% to 219%), and Amazon a solid 102%, Nvidia's remarkable trajectory truly set it apart. This simulation vividly demonstrates the profound impact of compounding returns and the outsized financial rewards achievable from investing in leading high-growth companies.
 
-![Final Value of $1000 Invested on 2020-02-19 (Held until 2024-12-31)](IWTG Results/Final Value of $1000 Invested on 2020-02-19 (Held until 2024-12-31).png)
+![Final Value of $1000 Invested on 2020-02-19 (Held until 2024-12-31)](IWTG%20Results/Final%20Value%20of%20$1000%20Invested%20on%202020-02-19%20(Held%20until%202024-12-31).png)
 
 ## 5. Market Interplay: Volume & Correlations
 
 Understanding trading volume and inter-stock correlations is vital for comprehending the broader market context and portfolio diversification strategies. Trading volume serves as a pulse check on investor interest and market activity. Our analysis revealed a general upward trend in daily trading volume for most tech giants throughout our period, reflecting growing market participation and institutional engagement. Nvidia, in particular, consistently commanded exceptionally high trading volumes during its rapid growth phase, signaling intense investor activity and robust liquidity. Spikes in volume often coincided with major news events or earnings reports, indicating heightened market reactions.
 
-![Daily Trading Volume of Tech Giants (2018-2024)](IWTG Results/Daily Trading Volume of Tech Giants (2018-2024).png)
+![Daily Trading Volume of Tech Giants (2018-2024)](IWTG%20Results/Daily%20Trading%20Volume%20of%20Tech%20Giants%20(2018-2024).png)
 
 Furthermore, we examined the correlation between the daily returns of these tech titans. As expected for large-cap companies operating within the same sector, all five exhibited a high degree of positive correlation (generally ranging from 0.5 to 0.7 or higher). This strong positive correlation implies that these stocks tend to move in tandem, largely influenced by shared sector-wide trends and macroeconomic forces. From a portfolio diversification perspective, this suggests that holding solely these tech giants, while potentially lucrative, would offer limited protection against downturns that broadly affect the technology sector. Diversification would necessitate looking beyond this specific group of large-cap tech.
 
-![Correlation Matrix of Daily Returns for Tech Giants](IWTG Results/Correlation Matrix of Daily Returns for Tech Giants.png)
+![Correlation Matrix of Daily Returns for Tech Giants](IWTG%20Results/Correlation%20Matrix%20of%20Daily%20Returns%20for%20Tech%20Giants.png)
 
 ## 6. The Pandemic's Mark: COVID-19 Impact Analysis
 
@@ -60,21 +60,21 @@ The COVID-19 pandemic served as an unprecedented global disruptor, leaving an in
 
 Our statistical findings from Levene's Test indicated a statistically significant change in volatility for most, if not all, of these tech giants in the post-COVID era. This conclusion was vividly supported by our visualizations, which often showed a notably wider spread of daily returns in the post-COVID period. This observed increase in volatility directly reflects the heightened uncertainty, rapid economic shifts, and accelerated digital transformation spurred by the pandemic.
 
-![Total Percentage Stock Growth: Pre-COVID vs. Post-COVID](IWTG Results/Total Percentage Stock Growth_ Pre-COVID vs. Post-COVID.png)
+![Total Percentage Stock Growth: Pre-COVID vs. Post-COVID](IWTG%20Results/Total%20Percentage%20Stock%20Growth_%20Pre-COVID%20vs.%20Post-COVID.png)
 
 Beyond just volatility, a comparison of total percentage growth in the pre- and post-COVID periods offered a compelling narrative. For nearly every company, the post-COVID era delivered substantially higher total growth, even accounting for the initial market shock. This powerfully underscores how the pandemic, despite its initial market shock, acted as a catalyst for growth across many segments of the tech sector, driving increased adoption of digital services.
 
-![Distribution of Daily Returns: Pre-COVID vs. Post-COVID (Violin Plot)](IWTG Results/Distribution of Daily Returns_ Pre-COVID vs. Post-COVID.png)
+![Distribution of Daily Returns: Pre-COVID vs. Post-COVID (Violin Plot)](IWTG%20Results/Distribution%20of%20Daily%20Returns_%20Pre-COVID%20vs.%20Post-COVID.png)
 
 A focused visualization on Nvidia further illuminated this acceleration. By overlaying its normalized growth trajectory from the three years before COVID-19 with the three years after, the dramatic steepening of its post-pandemic growth curve became strikingly apparent. This highlights Nvidia's unique position and exceptional capitalization on the shifts towards remote work, online entertainment, and the burgeoning AI landscape.
 
-![Nvidia Stock Growth: 3 Years Before vs. 3 Years After COVID-19 (Normalized)](IWTG Results/Nvidia Stock Growth_ 3 Years Before vs. 3 Years After COVID-19 (Normalized).png)
+![Nvidia Stock Growth: 3 Years Before vs. 3 Years After COVID-19 (Normalized)](IWTG%20Results/Nvidia%20Stock%20Growth_%203%20Years%20Before%20vs.%203%20Years%20After%20COVID-19%20(Normalized).png)
 
 Interestingly, our analysis also extended to the subtle shifts in intra-day trading dynamics. We observed changes in the proportion of "up" days (where the closing price was higher than the opening price) before and after the pandemic. For some companies, like Google, this shift was statistically significant, indicating that even the short-term trading patterns were affected by the new market environment.
 
-![Comparison of Intra-day "Up" Day Proportions: Pre- vs. Post-COVID](IWTG Results/Comparison of Intra-day _Up_ Day Proportions_ Pre-_vs._Post-COVID.png)
+![Comparison of Intra-day "Up" Day Proportions: Pre- vs. Post-COVID](IWTG%20Results/Comparison%20of%20Intra-day%20_Up_%20Day%20Proportions_%20Pre-_vs._Post-COVID.png)
 
-![Shift in Intra-day Up Days (Close > Open): Post-COVID vs. Pre-COVID](IWTG Results/Shift in Intra-day Up Days (Close _ Open)_ Post-COVID vs._ Pre-COVID.png)
+![Shift in Intra-day Up Days (Close > Open): Post-COVID vs. Pre-COVID](IWTG%20Results/Shift%20in%20Intra-day%20Up%20Days%20(Close%20_Open)_%20Post-COVID%20vs._%20Pre-COVID.png)
 
 ## 7. Glimpsing the Future: Stock Trajectory Prediction
 
@@ -84,15 +84,15 @@ We prepared the data by splitting each stock's historical prices into a training
 
 Our Prophet models were trained for each of the five tech stocks. The resulting visualizations showed that the models generally succeeded in capturing the overall long-term trends and broader movements for these companies. However, consistent with the inherent unpredictability of stock markets, the models struggled to perfectly forecast sharp, sudden price changes or capture the precise daily fluctuations in the unseen test data.
 
-![NVDA Stock Price Prediction (Prophet)](IWTG Results/NVDA Stock Price Prediction (Prophet).png)
+![NVDA Stock Price Prediction (Prophet)](IWTG%20Results/NVDA%20Stock%20Price%20Prediction%20(Prophet).png)
 
-![MSFT Stock Price Prediction (Prophet)](IWTG Results/MSFT Stock Price Prediction (Prophet).png)
+![MSFT Stock Price Prediction (Prophet)](IWTG%20Results/MSFT%20Stock%20Price%20Prediction%20(Prophet).png)
 
-![GOOGL Stock Price Prediction (Prophet)](IWTG Results/GOOGL Stock Price Prediction (Prophet).png)
+![GOOGL Stock Price Prediction (Prophet)](IWTG%20Results/GOOGL%20Stock%20Price%20Prediction%20(Prophet).png)
 
-![AMZN Stock Price Prediction (Prophet)](IWTG Results/AMZN Stock Price Prediction (Prophet).png)
+![AMZN Stock Price Prediction (Prophet)](IWTG%20Results/AMZN%20Stock%20Price%20Prediction%20(Prophet).png)
 
-![AAPL Stock Price Prediction (Prophet)](IWTG Results/AAPL Stock Price Prediction (Prophet).png)
+![AAPL Stock Price Prediction (Prophet)](IWTG%20Results/AAPL%20Stock%20Price%20Prediction%20(Prophet).png)
 
 The evaluation metrics (Root Mean Squared Error, Mean Absolute Error, and Mean Absolute Percentage Error) provided a quantitative measure of our models' performance. These metrics, while indicating a reasonable fit to the historical data, also underscored the substantial challenge of achieving highly accurate short-to-medium term stock price predictions in a dynamic market environment. The accuracy typically degrades as the prediction horizon extends, and unforeseen events can drastically alter trajectories.
 
