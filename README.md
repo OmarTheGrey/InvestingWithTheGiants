@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This report presents a comprehensive data analysis of the stock performance of five major technology companies: Apple (AAPL), Amazon (AMZN), Google (GOOGL), Microsoft (MSFT), and Nvidia (NVDA), spanning from early 2018 to late 2024. Leveraging historical daily stock data, this study explores their individual growth trajectories, quantifies their risk-reward profiles, and investigates the profound impact of the COVID-19 pandemic on their financial volatility. Furthermore, it delves into the interconnectedness of these tech giants and presents an attempt to forecast their future stock trajectories using time series models. The findings reveal distinct narratives of growth, resilience, and adaptability within the tech sector, highlighting Nvidia's explosive ascent and Microsoft's consistent stability, while also underscoring the market's dramatic shifts in response to global events.
+This report presents a comprehensive data analysis of the stock performance of five major technology companies: Apple (AAPL), Amazon (AMZN), Google (GOOGL), Microsoft (MSFT), and Nvidia (NVDA), spanning from early 2016 to late 2024. Leveraging historical daily stock data, this study explores their individual growth trajectories, quantifies their risk-reward profiles, and investigates the profound impact of the COVID-19 pandemic on their financial volatility. Furthermore, it delves into the interconnectedness of these tech giants and presents an attempt to forecast their future stock trajectories using time series models. The findings reveal distinct narratives of growth, resilience, and adaptability within the tech sector, highlighting Nvidia's explosive ascent and Microsoft's consistent stability, while also underscoring the market's dramatic shifts in response to global events.
 
 ## 1. Introduction: The Tech Titans' Arena
 
@@ -14,7 +14,7 @@ This project embarks on a data-driven journey to dissect the stock stories of th
 
 Our initial examination of the raw closing prices across these tech giants immediately highlights the vast differences in their absolute stock values. While companies like Google and Amazon may trade at higher dollar amounts per share, this raw view can be misleading. It offers a snapshot of their current price but tells us little about the actual percentage growth an investor would have experienced relative to their initial investment.
 
-To gain a truly comparable understanding of their performance, we normalized all stock prices to a common starting point (a base of 100) on January 2, 2018. This transformation allowed us to visualize their percentage growth trajectories side-by-side, painting a far clearer picture of who truly led the charge.
+To gain a truly comparable understanding of their performance, we normalized all stock prices to a common starting point (a base of 100) on January 2, 2016. This transformation allowed us to visualize their percentage growth trajectories side-by-side, painting a far clearer picture of who truly led the charge.
 
 ![Raw Closing Prices of Tech Giants (2016-2024)](IWTG%20Results/Raw%20Closing%20Prices%20of%20Tech%20Giants%20(2016-2024).png)
 
@@ -98,7 +98,7 @@ The evaluation metrics (Root Mean Squared Error, Mean Absolute Error, and Mean A
 
 ## 8. Conclusion: A Legacy Forged in Data
 
-Our comprehensive analysis of Apple, Amazon, Google, Microsoft, and Nvidia's stock performance from 2018 to 2024 offers a compelling narrative of growth, resilience, and adaptability within the technology sector.
+Our comprehensive analysis of Apple, Amazon, Google, Microsoft, and Nvidia's stock performance from 2016 to 2024 offers a compelling narrative of growth, resilience, and adaptability within the technology sector.
 
 **Nvidia's explosive ascent**, particularly in the post-COVID digital acceleration, stands out as a stark illustration of how a company at the forefront of critical technologies can achieve unparalleled market capitalization. **Microsoft**, on the other hand, consistently demonstrated a remarkable blend of **robust growth and relative stability**, cementing its role as a reliable pillar of the tech market.
 
