@@ -1,4 +1,4 @@
-# Comprehensive Stock Performance Analysis of Leading Tech Giants (2018-2024)
+# Comprehensive Stock Performance Analysis of Leading Tech Giants (2016-2024)
 
 ## Abstract
 
@@ -48,7 +48,7 @@ The results powerfully underscore the immense wealth generation potential within
 
 Understanding trading volume and inter-stock correlations is vital for comprehending the broader market context and portfolio diversification strategies. Trading volume serves as a pulse check on investor interest and market activity. Our analysis revealed a general upward trend in daily trading volume for most tech giants throughout our period, reflecting growing market participation and institutional engagement. Nvidia, in particular, consistently commanded exceptionally high trading volumes during its rapid growth phase, signaling intense investor activity and robust liquidity. Spikes in volume often coincided with major news events or earnings reports, indicating heightened market reactions.
 
-![Daily Trading Volume of Tech Giants (2018-2024)](IWTG%20Results/Daily%20Trading%20Volume%20of%20Tech%20Giants%20(2018-2024).png)
+![Daily Trading Volume of Tech Giants (2016-2024)](IWTG%20Results/Daily%20Trading%20Volume%20of%20Tech%20Giants%20(2018-2024).png)
 
 Furthermore, we examined the correlation between the daily returns of these tech titans. As expected for large-cap companies operating within the same sector, all five exhibited a high degree of positive correlation (generally ranging from 0.5 to 0.7 or higher). This strong positive correlation implies that these stocks tend to move in tandem, largely influenced by shared sector-wide trends and macroeconomic forces. From a portfolio diversification perspective, this suggests that holding solely these tech giants, while potentially lucrative, would offer limited protection against downturns that broadly affect the technology sector. Diversification would necessitate looking beyond this specific group of large-cap tech.
 
