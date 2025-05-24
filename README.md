@@ -18,7 +18,7 @@ Our initial examination of the raw closing prices across these tech giants immed
 
 To gain a truly comparable understanding of their performance, we normalized all stock prices to a common starting point (a base of 100) on January 2, 2018. This transformation allowed us to visualize their percentage growth trajectories side-by-side, painting a far clearer picture of who truly led the charge.
 
-![Raw Closing Prices of Tech Giants (2016-2024)](IWTG Results/Raw_Closing_Prices_of_Tech_Giants_2016-2024.png)
+![Raw Closing Prices of Tech Giants (2018-2024)](IWTG Results/Raw_Closing_Prices_of_Tech_Giants_2016-2024.png)
 
 From this normalized perspective, Nvidia emerged as the undisputed champion of growth, showcasing an exceptionally explosive upward trend that dramatically outpaced its peers, particularly in the later years of our analysis. Microsoft, while perhaps less flashy, demonstrated remarkably strong and consistent growth throughout the period, solidifying its position as a reliable performer. Apple also delivered substantial percentage gains, though its curve was not as dramatically steep as Nvidia's. Amazon and Google ultimately achieved significant overall growth, but navigated a somewhat more volatile path, marked by noticeable fluctuations.
 
