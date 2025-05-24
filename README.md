@@ -62,8 +62,8 @@ The COVID-19 pandemic served as an unprecedented global disruptor, leaving an in
 
 Our primary inquiry focused on hwether the volatility (risk) was significantly affected following the COVID-19 pandemic.
 
-** H0: **σ<sup>2</sup><sub>pre</sub> = σ<sup>2</sup><sub>post</sub>
-** H0: **σ<sup>2</sup><sub>pre</sub> != σ<sup>2</sup><sub>post</sub>
+H0: σ<sup>2</sup><sub>pre</sub> = σ<sup>2</sup><sub>post</sub>
+H0: σ<sup>2</sup><sub>pre</sub> != σ<sup>2</sup><sub>post</sub>
 
 for that purpose we employed Levene's Test, a robust statistical tool, to rigorously assess whether the variance (our chosen measure of volatility) of daily returns for each company underwent a statistically significant change between these two distinct periods.
 
@@ -85,8 +85,8 @@ A focused visualization on Nvidia further illuminated this acceleration. By over
 
 Our analysis also extended to the subtle shifts in intra-day trading dynamics. We observed changes in the proportion of "up" days (where the closing price was higher than the opening price) before and after the pandemic. 
 
-** H0: ** p<sub>post</sub> = p<sub>pre</sub>
-** H1: ** p<sub>post</sub> != p<sub>pre</sub>
+H0: p<sub>post</sub> = p<sub>pre</sub>
+H1: p<sub>post</sub> != p<sub>pre</sub>
 
 Interestingly for some companies, like Google, this shift was statistically significant. For the other tech giants (AAPL, AMZN, MSFT, NVDA), we failed to reject the null hypothesis, suggesting no statistically significant shift in this particular intra-day pattern based on our data and chosen significance level. This indicates that even the short-term trading patterns were affected by the new market environment.
 
