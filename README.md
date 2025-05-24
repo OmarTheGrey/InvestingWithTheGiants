@@ -62,8 +62,8 @@ The COVID-19 pandemic served as an unprecedented global disruptor, leaving an in
 
 Our primary inquiry focused on hwether the volatility (risk) was significantly affected following the COVID-19 pandemic.
 
-**H0:**σ<sup>2</sup><sub>pre</sub> = σ<sup>2</sup><sub>post</sub>
-**H0:**σ<sup>2</sup><sub>pre</sub> != σ<sup>2</sup><sub>post</sub>
+** H0: **σ<sup>2</sup><sub>pre</sub> = σ<sup>2</sup><sub>post</sub>
+** H0: **σ<sup>2</sup><sub>pre</sub> != σ<sup>2</sup><sub>post</sub>
 
 for that purpose we employed Levene's Test, a robust statistical tool, to rigorously assess whether the variance (our chosen measure of volatility) of daily returns for each company underwent a statistically significant change between these two distinct periods.
 
